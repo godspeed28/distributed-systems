@@ -1,0 +1,8 @@
+enable
+configure terminal
+interface FastEthernet0/0
+ ip address <ipaddressrouter/defaultgateway> <mask>
+ no shutdown
+exit
+
+sh ip int <namainterface>
